@@ -336,7 +336,6 @@ a {
   font-weight: 700;
   line-height: 49px;
   font-size: 42px;
-  padding-bottom: ;
 }
 .our-barbers__cards {
   display: flex;
@@ -386,9 +385,38 @@ a {
 }
 
 .our-barbers__card:hover {
-  box-shadow: ;
 }
-. .container {
+
+/* stilizre our place*/
+.our-place .container {
+  padding-top: 189px;
+}
+
+.our-place__subtitle {
+  font-family: var(--primary-font);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--black);
+  line-height: 14px;
+  padding-bottom: 44px;
+}
+
+.our-place__subtitle::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  vertical-align: middle;
+  margin-right: 7px;
+  display: inline-block;
+  background-color: var(--light-black);
+}
+.our-place__images {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 130px;
+}
+.container {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
